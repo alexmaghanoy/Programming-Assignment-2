@@ -3,7 +3,7 @@
 ----- NORMALIZATION PROBLEM -----
 
 Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. 
-Centering means subtracting the data from the mean ( and scaling means dividing with its standard deviation. 
+Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. 
 Mathematically, normalization can be expressed as:  
  
 Z = (𝑋−x) / 𝜎 
