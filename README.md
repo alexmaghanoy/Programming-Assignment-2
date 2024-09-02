@@ -30,6 +30,7 @@ Save your normalized ndarray as X_normalized.npy.
     data = np.load('X_normalized.npy')     //load the saved array file//
     data
 
+
 ---- DIVISIBLE BY 3 PROBLEM ----
 
  Create the following 10 x 10 ndarray: 
