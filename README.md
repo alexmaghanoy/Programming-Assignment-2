@@ -35,19 +35,19 @@ Use Python's `.mean()` and `.std()` functions to calculate the mean and standard
 
 ### CODE ###
     
-  `import numpy as np`    *//import the numpy library//*
+  `import numpy as np`    *// import the numpy library //*
 
-  `X = np.random.random((5,5))`    *//generate random values for a 5x5 array//*
+  `X = np.random.random((5,5))`    *// generate random values for a 5x5 array //*
     
-  `mean = X.mean()`     *//calculate the mean of array X//*
+  `mean = X.mean()`     *// calculate the mean of array X //*
   
-  `std = X.std()`     *//calculate the standard deviation of array X//*
+  `std = X.std()`     *// calculate the standard deviation of array X //*
     
-  `Z = (X - mean)/std`     *//normalize array X by inputting the data above//*
+  `Z = (X - mean)/std`     *// normalize array X by inputting the data above //*
 
-  `np.save('X_normalized.npy', X)`     *//save array X to a file named "X_normalized.npy"//*
+  `np.save('X_normalized.npy', X)`     *// save array X to a file named "X_normalized.npy" //*
     
-  `data = np.load('X_normalized.npy')`     *//load the saved array file//*
+  `data = np.load('X_normalized.npy')`     *// load the saved array file //*
   
   `data`
 
@@ -84,15 +84,15 @@ In this problem, you will create a 10 x 10 NumPy array `A` that contains the squ
 
 ### CODE ###
 
- `import numpy as np`     *//import the numpy library//*
+ `import numpy as np`     *// import the numpy library //*
 
  `A = np.arange(1,101).reshape(10,10)**2`     
- *//create a 10x10 array with the squares of the first 100 positive integers//*
+ *// create a 10x10 array with the squares of the first 100 positive integers //*
     
- `Y = A[A % 3 == 0]`     *//determine if the element is divisible by 3//*
+ `Y = A[A % 3 == 0]`     *// determine if the element is divisible by 3 //*
 
- `np.save('div_by_3.npy', Y)`     *//save array Y to a file named "div_by_3.npy"//*
+ `np.save('div_by_3.npy', Y)`     *// save array Y to a file named "div_by_3.npy" //*
 
- `data = np.load('div_by_3.npy')`     *//load the saved array file//*    
+ `data = np.load('div_by_3.npy')`     *// load the saved array file //*    
  `data`
     
