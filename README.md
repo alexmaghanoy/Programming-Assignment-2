@@ -43,7 +43,7 @@ Use Python's `.mean()` and `.std()` functions to calculate the mean and standard
   
   `std = X.std()`     *//calculate the standard deviation of array X//*
     
-  `Z = (X - mean)/std`     *//normalize array X by inputting the given formula above//*
+  `Z = (X - mean)/std`     *//normalize array X by inputting the data above//*
 
   `np.save('X_normalized.npy', X)`     *//save array X to a file named "X_normalized.npy"//*
     
